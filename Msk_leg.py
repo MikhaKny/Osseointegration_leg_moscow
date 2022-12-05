@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.4),
-    on Декабрь 05, 2022, at 10:30
+    on Декабрь 05, 2022, at 10:28
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -60,7 +60,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='D:\\Skoltech\\Neuro LAB\\Osteoprothesis\\Leg_Msk\\well\\Msk_leg_lastrun.py',
+    originPath='D:\\Skoltech\\Neuro LAB\\Osteoprothesis\\Leg_Msk\\well\\Msk_leg.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -156,7 +156,7 @@ Actual_task = visual.TextStim(win=win, name='Actual_task',
 LSL_send = visual.TextStim(win=win, name='LSL_send',
     text='',
     font='Open Sans',
-    pos=(0.6, -0.4), height=0.01, wrapWidth=None, ori=0.0, 
+    pos=(0, -0.2), height=0.05, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=None, 
     languageStyle='LTR',
     depth=-1.0);
